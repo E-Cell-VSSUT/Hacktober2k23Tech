@@ -24,7 +24,7 @@ You just have to make 4 contributions during this month long event to be eligibl
 * Clone your fork down to your local machine.
 
 ```markdown
-git clone <repo link>
+git clone https://github.com/E-Cell-VSSUT/Hacktober2k23Tech.git
 ```
 
 ## How to contribute to this project!!
