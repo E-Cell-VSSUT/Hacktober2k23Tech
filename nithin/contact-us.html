@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us Page</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        :root {
+            --font-heading: Arial, Helvetica, sans-serif;
+            --font-text: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        body {
+            font-family: var(--font-text);
+            background-color: #f2f2f2ba;
+            height: 80vh;
+
+            display: grid;
+            place-items: center;
+        }
+
+        .container {
+            max-width: 600px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        h1 {
+            font-family: var(--font-heading);
+            font-size: 24px;
+            margin-bottom: 16px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 6px;
+            padding-left: 2px;
+            text-align: left;
+        }
+
+        input,
+        textarea {
+            font-family: var(--font-text);
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 24px;
+            border: 1px solid #ccc;
+            outline: none;
+            border-radius: 5px;
+        }
+
+        input:focus, textarea:focus {
+            border-color: orange;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: black;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: rgba(0, 0, 0, 0.675);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Contact us</h1>
+        <p><small>If you're interested in working with us, please fill out the form below.</small></p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" name="name" placeholder="your name" required>
+
+            <label for="email">Email:</label>
+            <input type="text" name="email" placeholder="example@email.com" required>
+
+            <label for="message">Message:</label>
+            <textarea name="message" rows="4" placeholder="You want to talk about..." required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
