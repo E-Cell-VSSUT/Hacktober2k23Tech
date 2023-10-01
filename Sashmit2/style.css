@@ -1,0 +1,51 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+
+  background-image: url(image1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.calender{
+ 
+  max-width: 800px;
+  font-family: serif;
+  font-weight: bold;
+  color: black;
+  margin: 10% 10%;
+}
+.month{
+  text-align: center;
+  background: white;
+  font-size: 80px;
+  letter-spacing: 1px;
+  color: black;
+  border:3px solid blue;
+}
+table, th, td{
+  width: 100%;
+  table-layout: fixed;
+  text-align: center;
+  font-size: 27px;
+  border-collapse: collapse;
+  border:5px solid black;
+  font-family: Elaphant;
+}
+tr, th, td{
+  padding: 15px;
+}
+th{
+  background: #009900;
+  color: white;
+  font-family: arial black;
+}
+td{
+  background: #00264d;
+  color: yellow;
+}
+td:hover{
+  background: green;
+}
