@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #94A684;
+}
+
+.container {
+    position: absolute;
+    width: 80%;
+    max-width: 800px;
+    height: 600px;
+    margin: 0 auto;
+    padding: 60px;
+    
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size:60px;
+    color:#fff;
+}
+
+.contact-form {
+    margin-top: 60px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+    color: #fff;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+.google-map {
+    padding-bottom: 50%;
+    position: relative;
+}
+
+.google-map iframe {
+    height: 50%;
+    width: 40%;
+    right: 5%;
+    top: 200px;
+    position: absolute;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.social-media a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.social-media a:hover {
+    text-decoration: underline;
+}
+@media screen and (max-width: 768px) {
+    .google-map iframe {
+            /* height: 50%; */
+            width: 100%;
+            position: absolute;
+            left: 6%;
+          
+        }
+        footer {
+            position: absolute;
+            width: 100%;
+            top:100%;
+        }
+        .container{
+            position: absolute;
+            top:0%;
+        }
+        h1{
+            position: relative;
+            top: 0%;
+        }
+}
